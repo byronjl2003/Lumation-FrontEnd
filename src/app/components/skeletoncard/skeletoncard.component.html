@@ -1,0 +1,16 @@
+<div class="card">
+    <div [ngClass]="{'card__image':true, 'loading':loading}">
+        <img *ngIf="!loading" [src]="urlimg" alt="F" loading=lazy>
+    </div>
+    <div class="infocard">
+        <div [ngClass]="{'card__title':true,'loading':loading}">{{titulo}}</div>
+        <div [ngClass]="{'card__title':true,'loading':loading}">
+            <h5> Fuente: {{source}}</h5>
+        </div>
+        <div [ngClass]="{'card__title':true,'loading':loading}">
+            <h6> Tipo: {{tipo}}</h6>
+        </div>
+        <div [ngClass]="{'card__description':true,'loading':loading}">{{descripcion}}</div>
+    </div>
+
+</div>
