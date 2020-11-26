@@ -1,10 +1,17 @@
 # Proyecto para aplicar a plaza de Web Developer
 
-Este proyecto en una aplicacion SPA para consumir y buscar contenido por medio de la API desarrollada para esta misma prueba.
+Este proyecto en una aplicacion SPA desarrollado con el Framework Angular para consumir y buscar contenido por medio de la API desarrollada para esta misma prueba.
 
 ---
 ## Mas detalles de la aplicacion
 La aplicacion es bastante sencilla y estetica por lo que su uso es intuitivo para los usuarios.
+Conceptos de Angular que se utilizaron:
+* servicios
+* NgRx
+* RxJS
+* Componentes
+* Un poco de responsive
+
 ## Requerimientos
 
 Para entornos de desarrollo solo se necesitara de Nodejs instalado en tu equipo, asi como tambien los siguientes paquetes:
