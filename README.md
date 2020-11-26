@@ -1,27 +1,44 @@
-# LumPrueba
+# Proyecto para aplicar a plaza de Web Developer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
+Este proyecto en una aplicacion SPA para consumir y buscar contenido por medio de la API desarrollada para esta misma prueba.
 
-## Development server
+---
+## Mas detalles de la aplicacion
+La aplicacion es bastante sencilla y estetica por lo que su uso es intuitivo para los usuarios.
+## Requerimientos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Para entornos de desarrollo solo se necesitara de Nodejs instalado en tu equipo, asi como tambien los siguientes paquetes:
 
-## Code scaffolding
+* Node
+* Angular y sus dependencias
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Node
+- #### Instalacion de Node en Windows
 
-## Build
+  Ir a la pagina oficial de Node [official Node.js website](https://nodejs.org/) y descargar el instalador.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+  Tener en cuenta en configurar tus variables de entorno para acceder a `npm`
 
-## Running unit tests
+- #### Instalacion de Node en sistemas Unix/Linux
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    Tienes la opcion de instalar linux atraves del gestor de paquetes nativo.
+    Por ejemplo en Ubuntu solo bastara de los siguientes comandos:
+      $ sudo apt install nodejs
+      $ sudo apt install npm
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Instalacion y descarga de dependencias
+
+    $ git clone https://github.com/byronjl2003/Lumation-FrontEnd.git
+    $ cd NOMBRE_PROYECTO
+    $ npm install
+
+
+## Para correr el proyecto
+
+    $ ng serve
+
+## Docker
+Si en sus sistema cuenta con docker instalado la opcion ideal ses contruir la imagen con el dockerfile del repositorio y ejecutar el contenedor
